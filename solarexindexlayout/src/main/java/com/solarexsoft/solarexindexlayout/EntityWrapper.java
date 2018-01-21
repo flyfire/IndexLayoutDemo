@@ -15,6 +15,8 @@ public class EntityWrapper<T> {
     private T data;
     private int originalPosition;
     private int itemType = TYPE_CONTENT;
+    private boolean isFirst = false;
+    private boolean isLast = false;
 
     EntityWrapper() {
     }
@@ -72,6 +74,22 @@ public class EntityWrapper<T> {
 
     public void setOriginalPosition(int originalPosition) {
         this.originalPosition = originalPosition;
+    }
+
+    public boolean isFirst() {
+        return isFirst;
+    }
+
+    public void setFirst(boolean first) {
+        isFirst = first;
+    }
+
+    public boolean isLast() {
+        return isLast;
+    }
+
+    public void setLast(boolean last) {
+        isLast = last;
     }
 
     public int getItemType() {

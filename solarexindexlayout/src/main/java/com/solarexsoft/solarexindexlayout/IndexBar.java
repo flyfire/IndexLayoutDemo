@@ -70,10 +70,10 @@ public class IndexBar extends View {
                     .getDimension(R.dimen.default_indexBar_textSize));
             mTextSpace = array.getDimension(R.styleable.IndexBar_textSpace, getResources()
                     .getDimension(R.dimen.default_indexBar_textSpace));
-            mBackground = array.getDrawable(R.styleable.IndexBar_background);
-            mWidth = array.getDimension(R.styleable.IndexBar_layout_width, getResources()
+            mBackground = array.getDrawable(R.styleable.IndexBar_app_background);
+            mWidth = array.getDimension(R.styleable.IndexBar_app_layout_width, getResources()
                     .getDimension(R.dimen.default_indexBar_layout_width));
-            mHeight = array.getDimension(R.styleable.IndexBar_layout_height, getResources()
+            mHeight = array.getDimension(R.styleable.IndexBar_app_layout_height, getResources()
                     .getDimension(R.dimen.default_indexBar_layout_height));
             array.recycle();
         }

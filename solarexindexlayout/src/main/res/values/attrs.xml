@@ -5,8 +5,8 @@
         <attr name="textSize" format="dimension"/>
         <attr name="textSpace" format="dimension"/>
         <attr name="selectedTextColor" format="color"/>
-        <attr name="background" format="reference|color"/>
-        <attr name="layout_width" format="dimension"/>
-        <attr name="layout_height" format="dimension"/>
+        <attr name="app_background" format="reference|color"/>
+        <attr name="app_layout_width" format="dimension"/>
+        <attr name="app_layout_height" format="dimension"/>
     </declare-styleable>
 </resources>
