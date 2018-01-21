@@ -11,6 +11,7 @@
         android:layout_weight="1"/>
     <com.solarexsoft.solarexindexlayout.IndexBar
         android:id="@+id/indexbar"
-        android:layout_width="10dp"
+        android:layout_gravity="center"
+        android:layout_width="36dp"
         android:layout_height="325dp"/>
 </LinearLayout>

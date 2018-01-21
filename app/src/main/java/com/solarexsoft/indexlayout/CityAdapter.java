@@ -47,9 +47,10 @@ public class CityAdapter extends IndexableAdapter<CityEntity> {
         boolean isLast = entity.isLast();
         if (isFirst) {
             vh.itemView.setBackgroundColor(Color.BLUE);
-        }
-        if (isLast) {
+        }else if (isLast) {
             vh.itemView.setBackgroundColor(Color.GREEN);
+        }else {
+            vh.itemView.setBackgroundColor(Color.WHITE);
         }
         vh.tv.setText(entity.getData().getName());
     }
