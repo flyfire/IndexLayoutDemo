@@ -33,7 +33,7 @@ public abstract class IndexableAdapter<T extends IndexableEntity> {
 
     public abstract void onBindTitleViewHolder(RecyclerView.ViewHolder holder, String indexTitle);
 
-    public abstract void onBindContentViewHolder(RecyclerView.ViewHolder holder, T entity);
+    public abstract void onBindContentViewHolder(RecyclerView.ViewHolder holder, EntityWrapper<T> wrapper);
 
     public void setDatas(List<T> datas) {
         setDatas(datas, null);

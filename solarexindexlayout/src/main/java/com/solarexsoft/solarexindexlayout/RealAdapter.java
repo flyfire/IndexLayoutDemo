@@ -78,7 +78,7 @@ public class RealAdapter<T extends IndexableEntity> extends RecyclerView.Adapter
             }
             mAdapter.onBindTitleViewHolder(holder, item.getIndexTitle());
         } else if (viewType == EntityWrapper.TYPE_CONTENT) {
-            mAdapter.onBindContentViewHolder(holder, item.getData());
+            mAdapter.onBindContentViewHolder(holder, item);
         }
     }
 
