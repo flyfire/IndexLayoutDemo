@@ -26,6 +26,8 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-
-    implementation 'com.android.support:appcompat-v7:26.1.0'
+    provided 'com.android.support:appcompat-v7:26.1.0'
+    provided 'com.android.support:recyclerview-v7:26.1.0'
+    compile 'com.github.promeg:tinypinyin:2.0.3'
+    compile 'com.github.promeg:tinypinyin-lexicons-android-cncity:2.0.3'
 }

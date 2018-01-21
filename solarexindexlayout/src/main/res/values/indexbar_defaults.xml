@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_indexBar_textColor">#2aa9f7</color>
+    <dimen name="default_indexBar_textSize">6dp</dimen>
+    <color name="default_indexBar_selectedTextColor">#2aa9f7</color>
+    <dimen name="default_indexBar_textSpace">2dp</dimen>
+    <drawable name="dafault_indexBar_background">@android:color/transparent</drawable>
+    <dimen name="default_indexBar_layout_width">10dp</dimen>
+    <dimen name="default_indexBar_layout_height">325dp</dimen>
+</resources>
